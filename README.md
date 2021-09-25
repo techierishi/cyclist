@@ -13,7 +13,9 @@ packets that can arrive out of order over a network stream.
 
 ## Usage
 
-``` js
+``` typescript
+import { Cyclist } from "https://deno.land/x/cyclist@v1.0.2/mod.ts"
+
 const list = new Cyclist(4)
 
 list.put(42, 'hello 42') // store something and index 42

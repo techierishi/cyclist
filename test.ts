@@ -1,5 +1,5 @@
 import { assertEquals, assertExists } from "https://deno.land/std@0.108.0/testing/asserts.ts";
-import { Cyclist } from "./mod.ts"
+import { Cyclist } from "https://deno.land/x/cyclist@v1.0.2/mod.ts"
 
 Deno.test('basic put and get', () => {
   const list = new Cyclist(3)
