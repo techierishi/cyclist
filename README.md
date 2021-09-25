@@ -3,7 +3,7 @@ Deno port of https://github.com/mafintosh/cyclist
 
 Cyclist is an efficient [cyclic list](http://en.wikipedia.org/wiki/Circular_buffer) implemention for Javascript(Deno).
 It is available through deno land
-
+https://deno.land/x/cyclist
 ## What?
 
 Cyclist allows you to create a list of fixed size that is cyclic.
