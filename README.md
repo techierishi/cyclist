@@ -1,13 +1,8 @@
 # Cyclist
+Deno port of https://github.com/mafintosh/cyclist
 
-Cyclist is an efficient [cyclic list](http://en.wikipedia.org/wiki/Circular_buffer) implemention for Javascript.
-It is available through npm
-
-```
-npm install cyclist
-```
-
-[![build status](http://img.shields.io/travis/mafintosh/cyclist.svg?style=flat)](http://travis-ci.org/mafintosh/cyclist)
+Cyclist is an efficient [cyclic list](http://en.wikipedia.org/wiki/Circular_buffer) implemention for Javascript(Deno).
+It is available through deno land
 
 ## What?
 
@@ -19,8 +14,7 @@ packets that can arrive out of order over a network stream.
 ## Usage
 
 ``` js
-var cyclist = require('cyclist')
-var list = cyclist(4)
+const list = new Cyclist(4)
 
 list.put(42, 'hello 42') // store something and index 42
 list.put(43, 'hello 43') // store something and index 43
